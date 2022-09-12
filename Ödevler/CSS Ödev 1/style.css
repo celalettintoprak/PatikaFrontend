@@ -1,0 +1,120 @@
+body {
+    width: 850px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #dddddd;
+}
+
+ul {
+    display: inline-block;
+    padding-left: 0;
+    text-align: left;
+}
+
+.main-title {
+    color: #D43A2C;
+    font-size: x-large;
+}
+
+.content-title {
+    color: #D43A2C;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.contact-img {
+    border-radius: 20px;
+}
+
+.contact-a:link,
+a:visited,
+a:hover,
+a:active {
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+.contact-ul>li {
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.site-header {
+    background-color: #D43A2C;
+    w font-family: 'Merienda', cursive;
+    font-size: 20pt;
+    border-radius: 20px;
+}
+
+.head {
+    padding: 40px 0 0 0;
+    color: #fff;
+}
+
+.main-nav {
+    background-color: #fff;
+    color: #D43A2C;
+    border-radius: 0 0 20px 20px;
+}
+
+.main-nav>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-nav>ul>li {
+    padding: 20px 0px 25px 10px;
+}
+
+.main-nav>ul>li>a {
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 80px;
+}
+
+
+/***** A LINK STYLE START *****/
+
+
+/* unvisited & visited link */
+
+a:link,
+a:visited {
+    background-color: #ffe7e7;
+    color: #D43A2C;
+    border: 1px solid #fee0e0;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    background-color: #ffe7e7;
+    color: #D43A2C;
+    border: 1px solid #D43A2C;
+}
+
+
+/* selected link */
+
+a:active {
+    background-color: #D43A2C;
+    color: #ffe7e7;
+    border: 1px solid #D43A2C;
+}
+
+
+/***** A LINK STYLE END *****/
