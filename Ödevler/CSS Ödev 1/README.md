@@ -2,6 +2,8 @@
 
 ## Sayfamıza Biraz Makyaj Yapalım
 
+![Project preview](./preview.jpg)
+
 ![HTML - CSS - JS](./img/htmlcssjs.png)
 
 > Herkese merhaba arkadaşlar kanalımıza hoş geldiniz, bugün HTML sayfamıza hafif bir makyaj yapacağız. Komik gelse de aslında tam olarak böyle yapacağız. Bir HTML sayfası oluşturup buna CSS ile tasarımsal açıdan güzellikler katacağız, HTML sayfamıza güzelliği getireceğiz.
