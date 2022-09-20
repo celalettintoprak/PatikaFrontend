@@ -1,0 +1,267 @@
+.tepe1 {
+    line-height: normal;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.tepe2 {
+    flex-grow: 1;
+}
+
+.header {
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: flex;
+    float: right;
+    padding: 6px;
+}
+
+.tepe3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    height: 250px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+
+.container img {
+    height: 92px;
+    width: auto;
+}
+
+.container {
+    height: 100%;
+    margin-top: auto;
+    max-height: 92px;
+    position: relative;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.headerli a:hover {
+    text-decoration: underline;
+}
+
+.tepe6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #dfe1e5;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    line-height: 10px;
+    overflow: hidden;
+    bottom: 0;
+    background-color: #f2f2f2;
+}
+
+.tepe7 {
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+
+.tepe8 {
+    order: 2;
+}
+
+.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerli {
+    float: left;
+}
+
+.footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+}
+
+.footerli a:hover {
+    text-decoration: underline;
+}
+
+.tepe4 {
+    padding: 20px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    max-height: 160px;
+    position: relative;
+}
+
+.tepe5 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.panel {
+    padding-top: 6px;
+    margin-top: 0em;
+    font-size: 14px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+}
+
+.buttons {
+    height: 70px;
+    padding-top: 18px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.buttons button {
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 1px 2px 0 rgba(190, 190, 190, 0.24), 0 1px 2px 0 rgba(190, 190, 190, 0.19);
+}
+
+.search-area {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    font-size: 14px;
+}
+
+.search-area:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.24), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+.input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    width: 100%;
+    border: 0;
+}
+
+.googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
