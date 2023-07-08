@@ -7,47 +7,58 @@ function displayName() {
     return name;
 }
 
-function displayClock(){
-  let myClock = new Date().toLocaleTimeString();
-  setTimeout(displayClock, 1000);
-  return myClock;
-}
-
 function displayDay() {
-    let nowDay;
-    let day = new Date().getDay();
+    let dayTR;
+    const day = new Date().getDay();
     switch (day) {
         case 0:
-            nowDay = "Pazar";
+            dayTR = "Pazar";
             break;
         case 1:
-            nowDay = "Pazartesi";
+            dayTR = "Pazartesi";
             break;
         case 2:
-            nowDay = "Salı";
+            dayTR = "Salı";
             break;
         case 3:
-            nowDay = "Çarşamba";
+            dayTR = "Çarşamba";
             break;
         case 4:
-            nowDay = "Perşembe";
+            dayTR = "Perşembe";
             break;
         case 5:
-            nowDay = "Cuma";
+            dayTR = "Cuma";
             break;
         case 6:
-            nowDay = "Cumartesi";
+            dayTR = "Cumartesi";
             break;
     }
-    return nowDay;
+    return dayTR;
+}
+
+function displayClock(){
+    let myDay = displayDay();
+    const date = new Date();
+    let h = date.getHours();
+    let m = date.getMinutes();
+    let s = date.getSeconds();
+    h = checkTime(h);
+    m = checkTime(m);
+    s = checkTime(s);
+    myClockDOM.innerHTML =  `${h}:${m}:${s}  ${myDay}`;
+    setTimeout(displayClock, 1000);
+
+    function checkTime(i) {
+        // add zero in front of numbers < 10
+        if (i < 10) {i = "0" + i};
+        return i;
+    }
 }
 
 function getInformations() {
-    let myClock = displayClock();
-    let myDay = displayDay();
     let myName = displayName();
-    myClockDOM.innerHTML = `${myClock} ${myDay}`;
     myNameDOM.innerHTML = myName;
+    displayClock();
 }
 
 getInformations();
