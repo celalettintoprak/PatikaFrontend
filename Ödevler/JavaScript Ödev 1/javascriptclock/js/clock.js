@@ -62,3 +62,5 @@ function getInformations() {
 }
 
 getInformations();
+
+getInformations
